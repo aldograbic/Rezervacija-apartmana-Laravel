@@ -1,0 +1,17 @@
+h2 {
+	text-decoration: underline;
+}
+
+#galerija_slika_apartmani {
+	display: flex;
+	gap: 0.25vw;
+	flex: 1 1 50%;
+	
+	overflow-x: auto;
+}
+
+#galerija_slika_apartmani img {
+	width: 50vw;
+	height: 35vh;
+	border-radius: 5px;
+}
